@@ -71,9 +71,9 @@ const config = {
 						label: "Learn",
 					},
 
-					{ to: "/reference", label: "Reference", position: "right" },
+					// { to: "/reference", label: "Reference", position: "right" },
 
-					{ to: "/community", label: "Community", position: "right" },
+					// { to: "/community", label: "Community", position: "right" },
 
 					{ to: "/blog", label: "Blog", position: "right" },
 
