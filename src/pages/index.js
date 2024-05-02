@@ -3,7 +3,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
-import Logo from "@site/static/img/logo.svg";
+import Logo from "@site/static/img/react-logo.svg";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
@@ -22,7 +22,9 @@ function HomepageHeader() {
 					{siteConfig.title}
 				</Heading>
 
-				<p className="hero__subtitle">{siteConfig.tagline}</p>
+				<p className={clsx("hero__subtitle", styles.heroSubtitle)}>
+					{siteConfig.tagline}
+				</p>
 
 				<div className={styles.buttons}>
 					<Link
