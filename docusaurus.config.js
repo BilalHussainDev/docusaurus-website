@@ -1,27 +1,17 @@
-// @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
+
 const config = {
 	title: "React",
 	tagline: "The library for web and native user interfaces",
 	favicon: "img/logo.svg",
-
-	// Set the production url of your site here
-	url: "https://your-docusaurus-site.example.com",
-	// Set the /<baseUrl>/ pathname under which your site is served
-	// For GitHub pages deployment, it is often '/<projectName>/'
+	url: "https://docusaurus-website-bilal.vercel.app",
 	baseUrl: "/",
 
 	// GitHub pages deployment config.
-	// If you aren't using GitHub pages, you don't need these.
-	organizationName: "facebook", // Usually your GitHub org/user name.
-	projectName: "docusaurus", // Usually your repo name.
+	organizationName: "BilalHussainDev", // GitHub user name
+	projectName: "docusaurus-website", // Repo name
 
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
@@ -66,26 +56,35 @@ const config = {
 			// Replace with your project's social card
 			image: "img/docusaurus-social-card.jpg",
 			navbar: {
-				title: "My Site",
+				title: "React",
+
 				logo: {
-					alt: "My Site Logo",
+					alt: "React Logo",
 					src: "img/logo.svg",
 				},
+
 				items: [
 					{
 						type: "docSidebar",
 						sidebarId: "tutorialSidebar",
-						position: "left",
-						label: "Tutorial",
+						position: "right",
+						label: "Learn",
 					},
-					{ to: "/blog", label: "Blog", position: "left" },
+
+					{ to: "/reference", label: "Reference", position: "right" },
+
+					{ to: "/community", label: "Community", position: "right" },
+
+					{ to: "/blog", label: "Blog", position: "right" },
+
 					{
-						href: "https://github.com/facebook/docusaurus",
+						href: "https://github.com/facebook/react/releases",
 						label: "GitHub",
 						position: "right",
 					},
 				],
 			},
+
 			footer: {
 				style: "dark",
 				links: [
