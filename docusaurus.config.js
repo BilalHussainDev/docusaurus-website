@@ -31,6 +31,7 @@ const config = {
 			({
 				docs: {
 					sidebarPath: "./sidebars.js",
+					// includeCurrentVersion: false,
 				},
 				blog: {
 					showReadingTime: false,
@@ -47,6 +48,7 @@ const config = {
 		({
 			// Replace with your project's social card
 			image: "img/docusaurus-social-card.jpg",
+
 			navbar: {
 				title: "React",
 
@@ -61,6 +63,12 @@ const config = {
 						sidebarId: "tutorialSidebar",
 						position: "right",
 						label: "Learn",
+					},
+
+					{
+						type: "docsVersionDropdown",
+						position: "left",
+						dropdownActiveClassDisabled: true,
 					},
 
 					// { to: "/reference", label: "Reference", position: "right" },
@@ -175,6 +183,7 @@ const config = {
 					},
 				],
 			},
+
 			prism: {
 				theme: prismThemes.github,
 				darkTheme: prismThemes.dracula,
