@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Intro to React
+# Introduction
 
 React is a JavaScript library for building user interfaces.
 
