@@ -54,6 +54,18 @@ const config = {
 		],
 	],
 
+	plugins: [
+		[
+			require.resolve("@easyops-cn/docusaurus-search-local"),
+			/** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+			({
+				hashed: true,
+				language: ["en", "es"],
+				searchBarPosition: "left",
+			}),
+		],
+	],
+
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
@@ -70,16 +82,21 @@ const config = {
 
 				items: [
 					{
+						type: "docsVersionDropdown",
+						position: "left",
+						dropdownActiveClassDisabled: true,
+					},
+
+					{
+						type: "search",
+						position: "right",
+					},
+
+					{
 						type: "docSidebar",
 						sidebarId: "tutorialSidebar",
 						position: "right",
 						label: "Learn",
-					},
-
-					{
-						type: "docsVersionDropdown",
-						position: "left",
-						dropdownActiveClassDisabled: true,
 					},
 
 					// { to: "/reference", label: "Reference", position: "right" },
