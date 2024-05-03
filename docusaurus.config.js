@@ -4,7 +4,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 const config = {
 	title: "React",
-	tagline: "The library for web and native user interfaces",
+	// tagline: "The library for web and native user interfaces",
 	favicon: "img/logo.svg",
 	url: "https://docusaurus-website-bilal.vercel.app",
 	baseUrl: "/",
@@ -16,12 +16,18 @@ const config = {
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 
-	// Even if you don't use internationalization, you can use this field to set
-	// useful metadata like html lang. For example, if your site is Chinese, you
-	// may want to replace "en" with "zh-Hans".
+	// internationalization
 	i18n: {
 		defaultLocale: "en",
-		locales: ["en"],
+		locales: ["en", "es"],
+		localeConfigs: {
+			en: {
+				htmlLang: "en-GB",
+			},
+			es: {
+				label: "Spanish",
+			},
+		},
 	},
 
 	presets: [
@@ -31,7 +37,12 @@ const config = {
 			({
 				docs: {
 					sidebarPath: "./sidebars.js",
-					// includeCurrentVersion: false,
+					versions: {
+						current: {
+							label: "1.1.0",
+							path: "1.1.0",
+						},
+					},
 				},
 				blog: {
 					showReadingTime: false,
@@ -80,6 +91,11 @@ const config = {
 					{
 						to: "https://github.com/facebook/react/releases",
 						label: "GitHub",
+						position: "right",
+					},
+
+					{
+						type: "localeDropdown",
 						position: "right",
 					},
 				],

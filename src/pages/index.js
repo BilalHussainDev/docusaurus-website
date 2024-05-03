@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
+import Translate from "@docusaurus/Translate";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
@@ -23,7 +24,9 @@ function HomepageHeader() {
 				</Heading>
 
 				<p className={clsx("hero__subtitle", styles.heroSubtitle)}>
-					{siteConfig.tagline}
+					<Translate>
+						The library for web and native user interfaces
+					</Translate>
 				</p>
 
 				<div className={styles.buttons}>
@@ -31,7 +34,7 @@ function HomepageHeader() {
 						className="button button--primary button--lg"
 						to="/docs/category/quick-start"
 					>
-						Learn React
+						<Translate>Learn React</Translate>
 					</Link>
 				</div>
 			</div>
