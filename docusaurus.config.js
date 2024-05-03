@@ -31,17 +31,9 @@ const config = {
 			({
 				docs: {
 					sidebarPath: "./sidebars.js",
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
-					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
 				},
 				blog: {
-					showReadingTime: true,
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
-					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+					showReadingTime: false,
 				},
 				theme: {
 					customCss: "./src/css/custom.css",
@@ -78,7 +70,7 @@ const config = {
 					{ to: "/blog", label: "Blog", position: "right" },
 
 					{
-						href: "https://github.com/facebook/react/releases",
+						to: "https://github.com/facebook/react/releases",
 						label: "GitHub",
 						position: "right",
 					},
@@ -86,34 +78,80 @@ const config = {
 			},
 
 			footer: {
-				style: "dark",
+				style: "light",
 				links: [
 					{
-						title: "Docs",
+						title: "Meta Open Source",
 						items: [
 							{
-								label: "Tutorial",
-								to: "/docs/intro",
+								label: `© ${new Date().getFullYear()}`,
+								to: "/",
+							},
+							{
+								label: "uwu?",
+								to: "/",
 							},
 						],
 					},
+
+					{
+						title: "Learn React",
+						items: [
+							{
+								label: "Intro",
+								to: "docs/intro",
+							},
+							{
+								label: "Quick Start",
+								to: "docs/category/quick-start",
+							},
+							{
+								label: "Installation",
+								to: "docs/category/installation",
+							},
+							{
+								label: "Describing the UI",
+								to: "docs/category/describing-the-ui",
+							},
+						],
+					},
+
+					{
+						title: "API Reference",
+						items: [
+							{
+								label: "React APIs",
+								to: "https://react.dev/reference/react",
+							},
+							{
+								label: "React DOM APIs",
+								to: "https://react.dev/reference/react-dom",
+							},
+						],
+					},
+
 					{
 						title: "Community",
 						items: [
 							{
-								label: "Stack Overflow",
-								href: "https://stackoverflow.com/questions/tagged/docusaurus",
+								label: "Code of Conduct",
+								to: "https://github.com/facebook/react/blob/main/CODE_OF_CONDUCT.md",
 							},
 							{
-								label: "Discord",
-								href: "https://discordapp.com/invite/docusaurus",
+								label: "Meet the Team",
+								to: "https://react.dev/community/team",
 							},
 							{
-								label: "Twitter",
-								href: "https://twitter.com/docusaurus",
+								label: "Docs Contributors",
+								to: "https://react.dev/community/docs-contributors",
+							},
+							{
+								label: "Acknowledgements",
+								to: "https://react.dev/community/acknowledgements",
 							},
 						],
 					},
+
 					{
 						title: "More",
 						items: [
@@ -122,13 +160,20 @@ const config = {
 								to: "/blog",
 							},
 							{
-								label: "GitHub",
-								href: "https://github.com/facebook/docusaurus",
+								label: "React Native",
+								to: "https://reactnative.dev/",
+							},
+							{
+								label: "Privacy",
+								to: "https://opensource.facebook.com/legal/privacy",
+							},
+							{
+								label: "Terms",
+								to: "https://opensource.fb.com/legal/terms/",
 							},
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
 			},
 			prism: {
 				theme: prismThemes.github,
