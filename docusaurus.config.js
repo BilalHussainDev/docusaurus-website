@@ -55,18 +55,6 @@ const config = {
 		],
 	],
 
-	plugins: [
-		[
-			require.resolve("@easyops-cn/docusaurus-search-local"),
-			/** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-			({
-				hashed: true,
-				language: ["en", "es"],
-				searchBarPosition: "left",
-			}),
-		],
-	],
-
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
@@ -90,7 +78,7 @@ const config = {
 
 					{
 						type: "search",
-						position: "right",
+						position: "left",
 					},
 
 					{
@@ -102,7 +90,7 @@ const config = {
 
 					{ to: "/reference", label: "Reference", position: "right" },
 
-					// { to: "/community", label: "Community", position: "right" },
+					{ to: "/community", label: "Community", position: "right" },
 
 					{ to: "/blog", label: "Blog", position: "right" },
 
@@ -223,6 +211,17 @@ const config = {
 				darkTheme: prismThemes.dracula,
 			},
 		}),
+
+	plugins: [
+		[
+			require.resolve("@easyops-cn/docusaurus-search-local"),
+			/** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+			({
+				hashed: true,
+				language: ["en", "es"],
+			}),
+		],
+	],
 };
 
 export default config;

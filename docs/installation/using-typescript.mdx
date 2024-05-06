@@ -151,3 +151,17 @@ export const Highlight = ({ children, color }) => (
 This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
 
 This is <Highlight color="#1877F2">Facebook blue</Highlight> !
+
+export const Border = ({ children, color }) => (
+	<div
+		style={{
+			borderRadius: "12px",
+			border: "1px solid",
+			padding: "8px",
+		}}
+	>
+		{children}
+	</div>
+);
+
+<Border>This block has border due to react component</Border>
