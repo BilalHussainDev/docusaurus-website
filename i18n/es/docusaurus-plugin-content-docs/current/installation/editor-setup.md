@@ -2,13 +2,13 @@
 sidebar_position: 3
 ---
 
-# Editor Setup
+# Configuración del Editor
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
+Docusaurus crea una **página para cada entrada del blog**, pero también una **página de índice del blog**, un **sistema de etiquetas**, un **feed RSS**...
 
-## Create your first Post
+## Crea tu primera Entrada
 
-Create a file at `blog/2021-02-28-greetings.md`:
+Crea un archivo en `blog/2021-02-28-saludos.md`:
 
 ```md title="blog/2021-02-28-greetings.md"
 ---

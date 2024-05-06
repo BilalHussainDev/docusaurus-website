@@ -2,17 +2,17 @@
 sidebar_position: 2
 ---
 
-# Add React to an Existing Project
+# Agregar React a un Proyecto Existente
 
-Documents are **groups of pages** connected through:
+Los documentos son **grupos de páginas** conectadas a través de:
 
--   a **sidebar**
--   **previous/next navigation**
--   **versioning**
+-   una **barra lateral**
+-   **navegación anterior/siguiente**
+-   **versionado**
 
-## Create your first Doc
+## Crea tu primer Documento
 
-Create a Markdown file at `docs/hello.md`:
+Crea un archivo Markdown en `docs/hola.md`:
 
 ```md title="docs/hello.md"
 # Hello

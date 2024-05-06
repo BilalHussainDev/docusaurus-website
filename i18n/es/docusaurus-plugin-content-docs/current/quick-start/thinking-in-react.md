@@ -2,32 +2,32 @@
 sidebar_position: 2
 ---
 
-# Thinking in React
+# Pensando en React
 
-Documents are **groups of pages** connected:
+Los documentos son **grupos de páginas** conectadas:
 
--   **versioning**
--   a **sidebar**
--   **previous/next navigation**
+-   **versionado**
+-   una **barra lateral**
+-   **navegación anterior/siguiente**
 
-## Configure the Sidebar
+## Configura la Barra Lateral
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+Docusaurus automáticamente **crea una barra lateral** desde la carpeta `docs`.
 
-Add metadata to customize the sidebar label and position:
+Añade metadatos para personalizar la etiqueta y posición de la barra lateral:
 
-```md title="docs/hello.md" {1-4}
+```md title="docs/hola.md" {1-4}
 ---
-sidebar_label: "Hi!"
+sidebar_label: "¡Hola!"
 sidebar_position: 3
 ---
 
-# Hello
+# Hola
 
-This is my **first Docusaurus document**!
+¡Este es mi **primer documento de Docusaurus**!
 ```
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
+También es posible crear tu propia barra lateral explícitamente en `sidebars.js`:
 
 ```js title="sidebars.js"
 export default {
@@ -44,14 +44,14 @@ export default {
 };
 ```
 
-## Create your first Doc
+## Crea tu primer Documento
 
-Create a Markdown file at `docs/hello.md`:
+Crea un archivo Markdown en docs/hola.md:
 
 ```md title="docs/hello.md"
-# Hello
+# Hola
 
-This is my **first Docusaurus document**!
+¡Este es mi **primer documento de Docusaurus**!
 ```
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+Un nuevo documento ahora está disponible [http://localhost:3000/docs/hola](http://localhost:3000/docs/hola).

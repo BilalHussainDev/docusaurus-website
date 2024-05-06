@@ -2,15 +2,15 @@
 sidebar_position: 5
 ---
 
-# React Developer Tools
+# Herramientas de Desarrollo de React
 
-Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
+Docusaurus es un **generador de sitios estáticos** (también llamado **[Jamstack](https://jamstack.org/)**).
 
-It builds your site as simple **static HTML, JavaScript and CSS files**.
+Construye tu sitio como simples **archivos HTML, JavaScript y CSS estáticos**.
 
-## Build your site
+## Construye tu sitio
 
-Build your site **for production**:
+Construye tu sitio **para producción**:
 
 ```bash
 npm run build
