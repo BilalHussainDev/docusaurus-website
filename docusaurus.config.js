@@ -100,7 +100,7 @@ const config = {
 						label: "Learn",
 					},
 
-					// { to: "/reference", label: "Reference", position: "right" },
+					{ to: "/reference", label: "Reference", position: "right" },
 
 					// { to: "/community", label: "Community", position: "right" },
 
