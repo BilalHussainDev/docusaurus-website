@@ -2,28 +2,28 @@
 sidebar_position: 1
 ---
 
-# Tutorial: Tic-Tac-Toe
+# Tutorial: Tres en Raya
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+Agrega archivos **Markdown o React** a `src/pages` para crear una **página independiente**:
 
 -   `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
 -   `src/pages/foo.md` → `localhost:3000/foo`
 
-## Create your first Markdown Page
+## Crea tu primera página en Markdown
 
-Create a file at `src/pages/my-markdown-page.md`:
+Crea un archivo en `src/pages/mi-pagina-markdown.md`:
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
+```mdx title="src/pages/mi-pagina-markdown.md"
+# Mi página en Markdown
 
-This is a Markdown page
+Esta es una página en Markdown
 ```
 
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+Una nueva página ahora está disponible en [http://localhost:3000/mi-pagina-markdown](http://localhost:3000/mi-pagina-markdown).
 
-## Create your first React Page
+## Crea tu primera página en React
 
-Create a file at `src/pages/my-react-page.js`:
+Crea un archivo en `src/pages/mi-pagina-react.js`:
 
 ```jsx title="src/pages/my-react-page.js"
 import React from "react";
@@ -32,11 +32,11 @@ import Layout from "@theme/Layout";
 export default function MyReactPage() {
 	return (
 		<Layout>
-			<h1>My React page</h1>
-			<p>This is a React page</p>
+			<h1>Mi página en React</h1>
+			<p>Esta es una página en React</p>
 		</Layout>
 	);
 }
 ```
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+Una nueva página ahora está disponible en [http://localhost:3000/mi-pagina-react](http://localhost:3000/mi-pagina-react).

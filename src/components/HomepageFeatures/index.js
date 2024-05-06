@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
 	{
-		title: "Feature 1",
+		title: "Loremfeth 1",
 		Svg: require("@site/static/img/feature-1.svg").default,
 		description: (
 			<>
@@ -14,7 +14,7 @@ const FeatureList = [
 		),
 	},
 	{
-		title: "Feature 2",
+		title: "Loremfeth 2",
 		Svg: require("@site/static/img/feature-2.svg").default,
 		description: (
 			<>
@@ -24,7 +24,7 @@ const FeatureList = [
 		),
 	},
 	{
-		title: "Feature 3",
+		title: "Loremfeth 3",
 		Svg: require("@site/static/img/feature-3.svg").default,
 		description: (
 			<>
@@ -34,7 +34,7 @@ const FeatureList = [
 		),
 	},
 	{
-		title: "Feature 4",
+		title: "Loremfeth 4",
 		Svg: require("@site/static/img/feature-4.svg").default,
 		description: (
 			<>
@@ -44,7 +44,7 @@ const FeatureList = [
 		),
 	},
 	{
-		title: "Feature 5",
+		title: "Loremfeth 5",
 		Svg: require("@site/static/img/feature-5.svg").default,
 		description: (
 			<>
@@ -54,7 +54,7 @@ const FeatureList = [
 		),
 	},
 	{
-		title: "Feature 6",
+		title: "Loremfeth 6",
 		Svg: require("@site/static/img/feature-6.svg").default,
 		description: (
 			<>

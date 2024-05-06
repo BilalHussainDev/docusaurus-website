@@ -4,7 +4,6 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 const config = {
 	title: "React",
-	// tagline: "The library for web and native user interfaces",
 	favicon: "img/logo.svg",
 	url: "https://docusaurus-website-bilal.vercel.app",
 	baseUrl: "/",
@@ -44,9 +43,11 @@ const config = {
 						},
 					},
 				},
+
 				blog: {
 					showReadingTime: false,
 				},
+
 				theme: {
 					customCss: "./src/css/custom.css",
 				},
