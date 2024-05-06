@@ -37,10 +37,10 @@ const config = {
 			({
 				docs: {
 					sidebarPath: "./sidebars.js",
+					lastVersion: "current",
 					versions: {
 						current: {
 							label: "1.1.0",
-							path: "1.1.0",
 						},
 					},
 				},
