@@ -3,19 +3,19 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 
 const config = {
+	// Site Metadata
 	title: "React",
 	favicon: "img/logo.svg",
 	url: "https://docusaurus-website-bilal.vercel.app",
 	baseUrl: "/",
 
-	// GitHub pages deployment config.
+	// Deployment Configurations
 	organizationName: "BilalHussainDev", // GitHub user name
 	projectName: "docusaurus-website", // Repo name
-
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 
-	// internationalization
+	// Internationalization
 	i18n: {
 		defaultLocale: "en",
 		locales: ["en", "es"],

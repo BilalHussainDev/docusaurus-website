@@ -11,6 +11,14 @@
     "message": "Aprende",
     "description": "Navbar item with label Learn"
   },
+  "item.label.Reference": {
+    "message": "Referencia",
+    "description": "Navbar item with label Reference"
+  },
+  "item.label.Community": {
+    "message": "Comunidad",
+    "description": "Navbar item with label Community"
+  },
   "item.label.Blog": {
     "message": "Blog",
     "description": "Navbar item with label Blog"

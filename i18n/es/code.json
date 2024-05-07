@@ -5,6 +5,12 @@
   "Learn React": {
     "message": "Aprende React"
   },
+  "Reference": {
+    "message": "Referencia"
+  },
+  "Community": {
+    "message": "Comunidad"
+  },
   "theme.ErrorPageContent.title": {
     "message": "Esta página ha fallado.",
     "description": "The title of the fallback page when the page crashed"

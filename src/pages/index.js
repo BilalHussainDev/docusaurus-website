@@ -43,8 +43,6 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-	const { siteConfig } = useDocusaurusContext();
-
 	return (
 		<Layout description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
 			<HomepageHeader />
